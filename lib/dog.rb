@@ -13,10 +13,12 @@ class Dog
   def self.all
     @@all
   end 
+  
     def save
      @@all << self
      @save 
   end  
+  
   def self.clear_all 
     @@all.clear
     @@all 
